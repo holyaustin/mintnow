@@ -4,8 +4,8 @@ const xrpl = require("xrpl");
 const network = "wss://s.altnet.rippletest.net:51233";
 // const network = "wss://xrplcluster.com";
 
-const server = "https://xroyaltybackend.vercel.app";
-// const server = "http://localhost:8080";
+// const server = "https://mintnow.vercel.app";
+ const server = "http://localhost:8080";
 
 export const Xrpl = createContext({
     _xrpl: null,
@@ -43,7 +43,7 @@ function XrplProvider({ children }) {
             setXrpl(xrpl);
             setClient(client);
             // const interval = setInterval(() => {
-            //     fetch("https://xroyaltybackend.vercel.app/", { method: "POST" })
+            //     fetch("https://mintnow.vercel.app/", { method: "POST" })
             //         .then((res) => res.json())
             //         .then((data) => {
             //             if (!data) return;

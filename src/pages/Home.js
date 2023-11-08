@@ -11,7 +11,7 @@ function View() {
     async function getNfts() {
       if (!client) return;
       if (!account) {
-        // alert("Please connect wallet");
+         alert("Please connect wallet");
         return;
       }
       console.log(client);
