@@ -4,8 +4,8 @@ const xrpl = require("xrpl");
 const network = "wss://s.altnet.rippletest.net:51233";
 // const network = "wss://xrplcluster.com";
 
-// const server = "https://mintnow.vercel.app";
- const server = "http://localhost:8080";
+const server = "https://mintnowxrpl.vercel.app";
+ // const server = "http://localhost:8080";
 
 export const Xrpl = createContext({
     _xrpl: null,
