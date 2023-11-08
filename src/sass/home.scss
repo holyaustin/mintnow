@@ -1,0 +1,171 @@
+#home {
+    max-width: 1200px;
+    width: 95%;
+    margin-inline: auto;
+    font-family: "jcorbs", Sans-serif;
+    font-weight: 700;
+    color: #fff;
+
+    .title {
+        text-align: center;
+        font-size: 64px;
+        color: #fff;
+        margin: 36px auto;
+
+        @media screen and (max-width: 860px) {
+            margin-top: 72px;
+            font-size: 48px;
+        }
+    }
+
+    .view {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .card {
+            margin-inline: auto;
+            padding: 30px 80px;
+            width: 900px;
+            background: #5a8eae;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            border-radius: 20px;
+
+            @media screen and (max-width: 1200px) {
+                width: 720px;
+            }
+
+            @media screen and (max-width: 960px) {
+                width: 600px;
+            }
+
+            @media screen and (max-width: 840px) {
+                width: unset;
+                max-width: 90%;
+            }
+
+            .name {
+                font-size: 36px;
+                font-weight: 600;
+
+                @media screen and (max-width: 840px) {
+                    font-size: 24px;
+                }
+            }
+
+            .description {
+                font-family: "Montserrat", Sans-serif;
+                color: #111111;
+
+                @media screen and (max-width: 840px) {
+                    font-size: 16px;
+                }
+            }
+
+            .id {
+                font-family: "Montserrat", Sans-serif;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                color: #111111;
+                font-size: 18px;
+
+                @media screen and (max-width: 960px) {
+                    font-size: 16px;
+                }
+
+                @media screen and (max-width: 840px) {
+                    display: none;
+                    font-size: 2vw;
+                }
+            }
+
+            .content {
+                margin-top: 20px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 50px;
+
+                @media screen and (max-width: 840px) {
+                    justify-content: center;
+                }
+
+                img {
+                    width: 280px;
+                    border: 5px #fff solid;
+                    border-radius: 15px;
+
+                    @media screen and (max-width: 840px) {
+                        width: 90%;
+                    }
+                }
+
+                .attributes {
+                    text-align: center;
+                    font-size: 24px;
+                    font-weight: 600;
+                    width: calc(100% - 280px);
+
+                    @media screen and (max-width: 840px) {
+                        display: none;
+                    }
+
+                    .title {
+                        font-size: 28px;
+                        color: #fff;
+                    }
+
+                    .list {
+                        margin-top: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        gap: 30px;
+                        font-family: "Montserrat", Sans-serif;
+                        font-weight: 200;
+                        line-height: 28px;
+
+                        .type {
+                            font-weight: 600;
+                        }
+
+                        .value {
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            color: #111111;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .no-nft,
+        .loading {
+            padding: 50px 0;
+            background: #bf942d;
+            color: #7a4f01;
+            width: 60%;
+            text-align: center;
+            font-size: 28px;
+            border-radius: 20px;
+
+            @media screen and (max-width: 860px) {
+                width: unset;
+                padding: 12px;
+                margin-top: 48px;
+                font-size: 18px;
+                border-radius: 2vw;
+            }
+        }
+    }
+}
