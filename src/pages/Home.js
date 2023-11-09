@@ -31,7 +31,7 @@ function View() {
 
   return (
     <div id="home">
-      <div className="title">Your NFTs{account ? `(${nftAmount})` : null}</div>
+      <div className="title"> NFTs I collected {account ? `(${nftAmount})` : null}</div>
       <div className="view">
         {
           account

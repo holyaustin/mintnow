@@ -1,8 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## MintNow
+# MintNow
 An NFT collection Minter on XRPL. An NFT (Non-Fungible Token) collection minter is a DApp or platform that allows creators and users to generate, issue, and manage NFTs as part of a specific collection or series. NFTs represent ownership or provenance of unique digital or physical assets, and NFT collections typically consist of a set of NFTs that share a common theme, style, or creator.
 
 Here's how an NFT collection minter typically works:
@@ -56,4 +52,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+Project Title: MintNow
+
+Brief Description: An NFT collection Minter on XRPL. An NFT (Non-Fungible Token) collection minter is a DApp or platform that allows creators and users to generate, issue, and manage NFTs as part of a specific collection or series. NFTs represent ownership or provenance of unique digital or physical assets, and NFT collections typically consist of a set of NFTs that share a common theme, style, or creator.
+
+Main Objective: The primary goal or problem this project seeks to address to create a platform where creators can mint collections with ease using the features of XRPL and generate sales and royalty from thier collections. Building an NFT marketplace on XRPL where creators can be rewarded for thier work.
 
